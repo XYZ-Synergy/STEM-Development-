@@ -1,0 +1,29 @@
+{
+    "name": "povilasb/stem-development",
+    "description": "E-STAR basis AD void le tout le monde avoided STEM a la like formular development ĮV registration regular industry.",
+    "type": "project",
+    "require": {
+        "league/climate": "dev-main",
+        "league/config": "1.2.x-dev",
+        "league/tactician": "@stable",
+        "league/pipeline": "dev-master",
+        "league/container": "5.x-dev",
+        "doctrine/orm": "4.0.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "12.3.x-dev"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Povilasb\\StemDevelopment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Povilas Brilius",
+            "email": "pbrilius@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
